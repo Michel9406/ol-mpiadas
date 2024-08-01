@@ -67,6 +67,50 @@ tr:hover {
     background-color: #ddd;
 }
 
+form {
+    margin: 40px ;
+    align-items: center;
+
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 15px 5px;
+    width: 30%;
+    padding: 1%;
+}
+
+.checkbox {
+    margin: 25px 0;
+}
+
+.Enviar {
+    width: 10%;
+    padding: 15px 0;
+    background: #0033A0;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 2% 0 4%;
+}
+
+.Enviar:hover {
+    background:#0033A0;
+    transform: scale(1.1);
+}
 footer {
     background-color: #0033A0;
     color: #fff;
